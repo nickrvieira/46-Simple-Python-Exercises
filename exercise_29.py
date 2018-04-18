@@ -4,7 +4,7 @@
 # words and an integer n and returns the list of words that are longer than n
 
 def filter_long_words(words_list, n):
-    return list(filter(lambda x: len(x) > n, words_list))
-    
+    return list(filter(lambda x: len(x) > n, words_list)) #returns a list, rather than an iterator
+
 if __name__ == '__main__':
     print(filter_long_words(['word','teste','xatuba','hi'],3))
